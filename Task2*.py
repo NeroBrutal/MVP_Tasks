@@ -69,7 +69,7 @@ def ask_question():
         ]
 
         response = openai.ChatCompletion.create(
-            model="gpt-4-turbo",
+            model="gpt-4o-mini",
             messages=messages,
             tools=tools,
         )
